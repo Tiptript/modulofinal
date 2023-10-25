@@ -1,0 +1,57 @@
+[0m19:33:09.698673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E3362700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E77BA490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E77BA430>]}
+
+
+============================== 19:33:09.705480 | d25017ab-0166-49a0-b7a5-b987a7f47f09 ==============================
+[0m19:33:09.705480 [info ] [MainThread]: Running with dbt=1.6.6
+[0m19:33:09.707424 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lnune\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:33:09.708424 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/lnune/.dbt')}
+[0m19:33:09.710425 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:38:56.496592 [debug] [MainThread]: Starter project path: C:\Users\lnune\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m19:38:56.947977 [info ] [MainThread]: 
+Your new dbt project "postgress" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:38:56.960059 [info ] [MainThread]: Setting up your profile.
+[0m19:41:14.355283 [info ] [MainThread]: Profile postgress written to C:\Users\lnune\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:41:14.369944 [debug] [MainThread]: Command `dbt init` succeeded at 19:41:14.366359 after 484.72 seconds
+[0m19:41:14.374515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E3362700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E0C1CD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211E77BA850>]}
+[0m19:41:14.378279 [debug] [MainThread]: Flushing usage events
+[0m10:50:06.224987 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142F5AF9130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142F9F6AB20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142F9F6AC70>]}
+
+
+============================== 10:50:06.243744 | d13d67ac-90b4-43cf-9d33-f3c56b802579 ==============================
+[0m10:50:06.243744 [info ] [MainThread]: Running with dbt=1.6.6
+[0m10:50:06.251357 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\lnune\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:51:43.346464 [debug] [MainThread]: Starter project path: C:\Users\lnune\anaconda3\lib\site-packages\dbt\include\starter_project
+[0m10:51:43.455883 [info ] [MainThread]: 
+Your new dbt project "DataSculpt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:51:43.461034 [info ] [MainThread]: Setting up your profile.
+[0m10:51:48.971036 [debug] [MainThread]: Command `dbt init` succeeded at 10:51:48.971036 after 102.81 seconds
+[0m10:51:48.974500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142F5AF9130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142F9FBC130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000142FA092910>]}
+[0m10:51:48.976117 [debug] [MainThread]: Flushing usage events

@@ -2,3 +2,4 @@
 ADA - Engenharia.code-workspace
 test
 DataSculpt/.dbt/profiles.yml
+DataSculpt/.dbt/.user.yml

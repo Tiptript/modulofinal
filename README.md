@@ -23,11 +23,12 @@ Neste projeto, os arquivos de listing, reviews e calendar do Rio de Janeiro fora
 Posteriormente, os tratamentos de valores nulos, duplicados, outliers, tipos de colunas e limpeza de textos foram realizados nos DataFrames usando a biblioteca pandas. 
 
 Para analisar a qualidade dos dados e criar expectativas para uso futuro, foi utilizada a biblioteca Great Expectations. Great Expectations proporciona uma estrutura para validar, documentar e monitorar a qualidade dos dados.
-![Texto Alternativo](imagens/great_expectation.png)
+![Esquema de aplicabilidade do Great Expectations](imagens/great_expectation.png)
 
 Após o tratamento e análise da qualidade dos dados, eles foram carregados para o schema "trusted" (camada prata).
 
-Na última etapa do projeto, a ferramenta dbt foi utilizada para realizar a junção de dados das tabelas "listing" e "reviews" e carregar esses dados na camada "spec" (camada ouro). O dbt é uma ferramenta de modelagem de dados e orquestração que permite transformar, documentar e testar os dados antes de serem carregados em um data warehouse.
+Na última etapa do projeto, a ferramenta dbt foi utilizada para realizar a junção de dados das tabelas "listing" e "reviews" e carregar esses dados na camada "spec" (camada ouro). O dbt é uma ferramenta de modelagem de dados e orquestração com foco em SQL que permite que equipes implementem rapidamente e de forma colaborativa código analítico, seguindo as melhores práticas de engenharia de software, como modularidade, portabilidade, CI/CD e documentação.
+![Esquema de como o dbt funciona](imagens/dbt.png)
 
 # Executando o Projeto
 
@@ -84,4 +85,3 @@ Agora que todas as configurações foram feitas, você pode executar o projeto. 
 Lembre-se de sempre manter suas credenciais e informações sensíveis seguras e não compartilhá-las em locais públicos ou repositórios. Use métodos seguros, como variáveis de ambiente, para gerenciá-las. Além disso, mantenha o controle de versão dos arquivos `.env` e `profiles.yml` para garantir que as configurações corretas sejam utilizadas em cada ambiente.
 
 Caso haja mais detalhes ou considerações específicas para o seu projeto, sinta-se à vontade para adicioná-las a esta seção.
-

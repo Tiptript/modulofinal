@@ -97,7 +97,19 @@ anonymous_usage_statistics:
   data_context_id: 30e39703-dacb-4e88-8617-895faaaa23e2
   enabled: true
 fluent_datasources:
-  default_pandas_datasource:
+  listing:
+    type: pandas
+  review:
+    type: pandas
+  calendar:
+    type: pandas
+  __listing:
+    type: pandas
+  __review:
+    type: pandas
+  __calendar:
+    type: pandas
+  _calendar:
     type: pandas
 notebooks:
 include_rendered_content:

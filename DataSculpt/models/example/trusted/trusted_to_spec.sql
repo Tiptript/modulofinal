@@ -18,6 +18,6 @@ SELECT
     l.review_scores_value, 
     r.comments
 FROM 
-    trusted.grupo_fantastico_listing l
+    trusted.grupo_fantastico_listings l
 JOIN 
-    trusted.grupo_fantastico_reviews r ON l.id = r.listing_id;
+    trusted.grupo_fantastico_reviews r ON l.id = r.listing_id

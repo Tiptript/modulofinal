@@ -83,5 +83,3 @@ Agora que todas as configurações foram feitas, você pode executar o projeto. 
 ## Observações Adicionais
 
 Lembre-se de sempre manter suas credenciais e informações sensíveis seguras e não compartilhá-las em locais públicos ou repositórios. Use métodos seguros, como variáveis de ambiente, para gerenciá-las. Além disso, mantenha o controle de versão dos arquivos `.env` e `profiles.yml` para garantir que as configurações corretas sejam utilizadas em cada ambiente.
-
-Caso haja mais detalhes ou considerações específicas para o seu projeto, sinta-se à vontade para adicioná-las a esta seção.
